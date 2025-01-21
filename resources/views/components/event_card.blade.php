@@ -1,7 +1,7 @@
 <!-- props= date, time, location, tittle, desc, tag, id, image-->
 
 <div data-ec-main style="width: 100%; min-height: 140px; background-color: white; box-shadow: 4px 4px 12px #d9dfe9" class="rounded-2 gap-2 p-2 d-flex flex-column flex-md-row">
-  <div image style="background-image:url({{ $image ?? 'https://picsum.photos/id/46/600/600)'}}" class="bg-img rounded-2"></div>
+  <div image style="background-image:url(https://picsum.photos/id/46/600/600)" class="bg-img rounded-2"></div>
   <div text class="fol  flex-gro-1">
     <div style="color:#6482FE" class="fow f-8 fw-bold gap-2">
       <div class="fow ">
