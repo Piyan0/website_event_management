@@ -13,7 +13,7 @@
     </a>
     <a href="/upcoming" id="sidebar-icon" class="fol">
       <div class="force-center pore">
-        <img class="zi-1 phone-sidebar-icon" width=24 src="{{secure_asset('res/date.svg')}}" alt="">
+        <img class="zi-1 phone-sidebar-icon" width=24 src="{{asset('res/date.svg')}}" alt="">
         <div class="force-center full top-left posa">
           <div id="sidebar-phone-active-hint" style="width: 50px; height: 25px; background-color: #D9E0FF" class="d-none @if(session()->get("current_menu")=="upcoming" ) mobile_nav_active @endif  rounded-2"></div>
         </div>
