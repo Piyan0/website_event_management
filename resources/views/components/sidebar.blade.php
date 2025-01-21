@@ -1,19 +1,19 @@
   <div style="width: 180px; height: 100%; background-color: white; box-shadow: 2px 2px 8px #d9dfe9" class="rounded-2 fol justify-content-between py-4 alen">
     <div style="position: relative; top:30px" id="sidebar-link" class="fol f-16 gap-4 align-items-start ">
       <div tabindex="1" class="fow gap-2  p-1 px-2 rounded-2">
-        <img class="side-icon" width=16 src="res/home.svg" alt="">
+        <img class="side-icon" width=16 src="{{asset('res/home.svg')}}" alt="">
         <a style="text-decoration: none; color: #56587F" href="/home">Home</a>
       </div>
       <div tabindex=1 class="fow gap-2  p-1 px-2 rounded-2">
-        <img class="side-icon" width=16 src="res/date.svg" alt="">
+        <img class="side-icon" width=16 src="{{asset('res/date.svg')}}" alt="">
         <a style="text-decoration: none; color: #56587F" href="/upcoming">Upcoming</a>
       </div>
       <div tabindex=1 class="fow gap-2  p-1 px-2 rounded-2">
-        <img class="side-icon" width=16 src="res/bookmark.svg" alt="">
+        <img class="side-icon" width=16 src="{{asset('res/bookmark.svg')}}" alt="">
         <a style="text-decoration: none; color: #56587F" href="/bookmark">Bookmark</a>
       </div>
       <div tabindex=1 class="fow gap-2  p-1 px-2 rounded-2">
-        <img class="side-icon" width=16 src="res/history.svg" alt="">
+        <img class="side-icon" width=16 src="{{asset('res/history.svg')}}" alt="">
         <a style="text-decoration: none; color: #56587F" href="/history">History</a>
       </div>
 

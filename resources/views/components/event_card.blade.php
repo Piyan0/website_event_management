@@ -5,19 +5,19 @@
   <div text class="fol  flex-gro-1">
     <div style="color:#6482FE" class="fow f-8 fw-bold gap-2">
       <div class="fow ">
-        <img class="purple" width=8 src="res/date.svg" alt="">
+        <img class="purple" width=8 src="{{asset('res/date.svg')}}" alt="">
         <p>
           {{$date ?? "8 Maret 2004"}}
         </p>
       </div>
       <div class="fow alen">
-        <img class="purple" width=8 src="res/clock.svg" alt="">
+        <img class="purple" width=8 src="{{asset('res/clock.svg')}}" alt="">
         <p>
           {{$time ?? "10.30 WIB" }}
         </p>
       </div>
       <div class="fow ">
-        <img class="purple" width=8 src="res/location.svg" alt="">
+        <img class="purple" width=8 src="{{asset('res/location.svg')}}" alt="">
         <p>
           {{$location ?? "SMAN 1 PAGUYANGAN"}}
         </p>
@@ -38,11 +38,11 @@
 
       <div class="flex-grow-1 f-8 fow gap-2 justify-content-end px-1 purple">
         <div class="fol alen">
-          <img width=12 src="res/comment.svg" alt="">
+          <img width=12 src="{{asset('res/comment.svg')}}" alt="">
           <a href="/comments?id={{$id}}">Comments</a>
         </div>
         <div class="fol alen">
-          <img width=12 src="res/bookmark.svg" alt="">
+          <img width=12 src="{{asset('res/bookmark.svg')}}" alt="">
           <a href="/add_bookmark?id={{$id}}">Bookmark</a>
         </div>
       </div>
